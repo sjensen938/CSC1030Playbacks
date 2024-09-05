@@ -1,0 +1,47 @@
+{
+  "allDevelopers": {
+    "5436c6d8-42ac-422e-93e8-6384f5cb7931": {
+      "id": "5436c6d8-42ac-422e-93e8-6384f5cb7931",
+      "userName": "Storyteller System",
+      "email": "no-email",
+      "avatarURL": "https://www.gravatar.com/avatar/"
+    },
+    "25eccea1-031f-4684-94ac-8486ae64baa9": {
+      "id": "25eccea1-031f-4684-94ac-8486ae64baa9",
+      "userName": "Anonymous System",
+      "email": "no-email",
+      "avatarURL": "https://www.gravatar.com/avatar/"
+    },
+    "6a8eca1c-bfeb-4867-8e2c-c1212d573da7": {
+      "id": "6a8eca1c-bfeb-4867-8e2c-c1212d573da7",
+      "userName": "Sara Jensen",
+      "email": "sjensen1@carthage.edu",
+      "avatarURL": "https://www.gravatar.com/avatar/13c199ace3e9c180d7970d28243a2995"
+    }
+  },
+  "allDeveloperGroups": {
+    "2c88c7e2-d748-47ec-b9f0-ba6d0bfabe46": {
+      "id": "2c88c7e2-d748-47ec-b9f0-ba6d0bfabe46",
+      "memberIds": [
+        "5436c6d8-42ac-422e-93e8-6384f5cb7931"
+      ]
+    },
+    "8fb27b73-6142-4299-979e-6be12b9e40c7": {
+      "id": "8fb27b73-6142-4299-979e-6be12b9e40c7",
+      "memberIds": [
+        "25eccea1-031f-4684-94ac-8486ae64baa9"
+      ]
+    },
+    "6269ee04-6383-4c8d-b1cd-496b0c28e3f4": {
+      "id": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+      "memberIds": [
+        "6a8eca1c-bfeb-4867-8e2c-c1212d573da7"
+      ]
+    }
+  },
+  "activeDeveloperGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+  "anonymousDeveloperId": "25eccea1-031f-4684-94ac-8486ae64baa9",
+  "anonymousDeveloperGroupId": "8fb27b73-6142-4299-979e-6be12b9e40c7",
+  "systemDeveloperId": "5436c6d8-42ac-422e-93e8-6384f5cb7931",
+  "systemDeveloperGroupId": "2c88c7e2-d748-47ec-b9f0-ba6d0bfabe46"
+}

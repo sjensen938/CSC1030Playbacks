@@ -1,0 +1,451 @@
+{
+  "comments": {
+    "bd77e599-2f5c-41ea-8608-de7fcb14a0b1": [
+      {
+        "id": "2e30758a-17c8-49fb-879e-856efea90af5",
+        "displayCommentEventId": "bd77e599-2f5c-41ea-8608-de7fcb14a0b1",
+        "displayCommentEventSequenceNumber": 0,
+        "developerGroupId": "2c88c7e2-d748-47ec-b9f0-ba6d0bfabe46",
+        "timestamp": 1725391537863,
+        "commentText": "A playback introducing data types, as well as declaring and reassigning values to data types.",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ],
+    "5615feda-16fc-4efa-a14a-1dde292abbfc": [
+      {
+        "id": "62796073-e203-4d80-ae84-04be38976cd4",
+        "displayCommentEventId": "5615feda-16fc-4efa-a14a-1dde292abbfc",
+        "displayCommentEventSequenceNumber": 107,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725458613197,
+        "commentText": "Before learning the syntax for creating variables in R, let's learn a bit more about how we should think about variables.<div><br></div><div>In news nobody asked for, the symbol # used for comments is technically called an <span style=\"font-style: italic;\">octothorpe</span>.</div>",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [
+          "media/videos/1725458585039-VariablesAsLockers.mp4"
+        ],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [
+          "video"
+        ],
+        "questionCommentData": null
+      }
+    ],
+    "eb73020a-e308-47bb-8dba-eff23be9e34b": [
+      {
+        "id": "adf913f8-9c15-48cd-b49f-f9191a90ba78",
+        "displayCommentEventId": "eb73020a-e308-47bb-8dba-eff23be9e34b",
+        "displayCommentEventSequenceNumber": 125,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725467770527,
+        "commentText": "All variable declarations have the following form:<br><br><span style=\"font-family: Courier;\">variable_name &lt;- value</span><div><br></div><div>The <span style=\"font-family: Courier;\">&lt;-</span> symbol is the <span style=\"font-style: italic;\">assignment operator.</span>&nbsp;The expression above is read out loud as \"(variable_name) is assigned the value of (value)\", here, \"<span style=\"font-family: Courier;\">my_variable</span> is assigned the value of 5\".</div><div><br></div><div>Because R is dynamically typed, it is at this stage that R is automatically determining the data type of <span style=\"font-family: Courier;\">my_variable</span>.</div>",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ],
+    "5b6d5d7c-3351-4f1c-92ff-b9b22a42df5c": [
+      {
+        "id": "2eaba8a2-49a1-44e4-a6c1-a41afb05c523",
+        "displayCommentEventId": "5b6d5d7c-3351-4f1c-92ff-b9b22a42df5c",
+        "displayCommentEventSequenceNumber": 142,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725468549228,
+        "commentText": "This line of code <span style=\"font-style: italic;\">reassigns</span> a value of 7 to the <span style=\"font-family: Courier;\">my_variable</span> object.",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ],
+    "22963588-8c7c-4191-9422-f61eb4d2cf76": [
+      {
+        "id": "1555dc10-caf6-4529-b155-f397cf5d7912",
+        "displayCommentEventId": "22963588-8c7c-4191-9422-f61eb4d2cf76",
+        "displayCommentEventSequenceNumber": 174,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725469207262,
+        "commentText": "The previous values we have assigned to <span style=\"font-family: Courier;\">my_variable</span> have been numeric (numbers).&nbsp; It is also perfectly acceptable to reassign non-numeric values to <span style=\"font-family: Courier;\">my_variable</span> in R.&nbsp; Again, this is possible because R is dynamically typed.<div><br></div><div>Happening in the background in this line of code is that R has changed the data type of <span style=\"font-family: Courier;\">my_variable</span> from \"numeric\" to \"character\" (a character vector / string).&nbsp; &nbsp;When assigning character vectors, we encase the word in double quotes, just like a line of dialogue.</div>",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ],
+    "edcd01e6-0525-4d0e-a19c-fff5b498c22f": [
+      {
+        "id": "95c46e2b-833f-4670-a01d-3b3c7c7a1dc1",
+        "displayCommentEventId": "edcd01e6-0525-4d0e-a19c-fff5b498c22f",
+        "displayCommentEventSequenceNumber": 220,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725469787409,
+        "commentText": "Once a variable has been created, it can be used just as its literal value would be used.&nbsp;&nbsp;<div><br></div><div>As an example here, line 8 reassigns a value of 5 back to&nbsp;<span style=\"font-family: Courier;\">my_variable</span>.&nbsp; If we ask the computer to evaluate&nbsp;<span style=\"font-family: Courier;\">my_variable</span>*4+3, the&nbsp;<span style=\"font-weight: bold;\">value</span>&nbsp;of&nbsp;<span style=\"font-family: Courier;\">my_variable</span>&nbsp;(5) is in the place of&nbsp;<span style=\"font-family: Courier;\">my_variable</span>&nbsp;in this expression.&nbsp; 5*4+3 = 23 will be printed for the expression in line 9.</div>",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ],
+    "9d1a3484-7e8d-461c-847a-547d142c4cb4": [
+      {
+        "id": "d82c1cae-4d2b-4d79-b706-998ba7aa46d0",
+        "displayCommentEventId": "9d1a3484-7e8d-461c-847a-547d142c4cb4",
+        "displayCommentEventSequenceNumber": 241,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725470020028,
+        "commentText": "",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [
+          "question"
+        ],
+        "questionCommentData": {
+          "allAnswers": [
+            "5",
+            "7",
+            "\"Sara\"",
+            "23",
+            "None of these"
+          ],
+          "correctAnswer": "5",
+          "question": "What do you think will be printed to the screen in line 10?",
+          "explanation": ""
+        }
+      }
+    ],
+    "624707ac-7d81-4974-be45-9388d1d4639e": [
+      {
+        "id": "c1e73eda-da02-45f8-b9d8-8f015086ddd5",
+        "displayCommentEventId": "624707ac-7d81-4974-be45-9388d1d4639e",
+        "displayCommentEventSequenceNumber": 294,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725473389316,
+        "commentText": "The computer won't do anything we don't ask it to do!&nbsp; Line 9 just expresses that we wish to&nbsp;<span style=\"font-style: italic;\">see</span>&nbsp;the value&nbsp;<span style=\"font-family: Courier;\">my_variable</span>*4+3,&nbsp;<span style=\"font-weight: bold;\">not</span>&nbsp;that we wish to store it.<div><br></div><div>If we wish to store the change we've made to&nbsp;<span style=\"font-family: Courier;\">my_variable</span>, we need to add a reassignment statement, reassigning the value computed (23) to the locker holding&nbsp;<span style=\"font-family: Courier;\">my_variable</span>.</div><div><br></div><div>This also shows us that the assignment operator (<span style=\"font-family: Courier;\">&lt;-</span>) takes place&nbsp;<span style=\"font-style: italic;\">after&nbsp;</span>mathematical computations.</div><div><br></div><div><br></div>",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ],
+    "3284319a-c969-4ed1-ad0c-2f45abe200e7": [
+      {
+        "id": "1073d9af-260d-4f33-a773-205d59854439",
+        "displayCommentEventId": "3284319a-c969-4ed1-ad0c-2f45abe200e7",
+        "displayCommentEventSequenceNumber": 370,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725473573285,
+        "commentText": "It is good practice to try to create names for your variables that help you understand the values they store.&nbsp; For example, <span style=\"font-family: Courier;\">my_name</span> is a more appropriate description of a value than&nbsp;<span style=\"font-family: Courier;\">my_variable</span>; <span style=\"font-family: Courier;\">my_variable </span>could be anything!<div><br></div><div>With numerical values and variables, we could combine them in ways that come more naturally to us (e.g. adding, subtracting, multiplying).&nbsp; One way we often combine character vectors / strings is by con<span style=\"font-weight: bold;\">cat</span>enating them (placing one right after another).&nbsp; This is what the <span style=\"font-family: Courier;\">cat()</span> function does to our two character vectors.</div>",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [
+          "media/images/1725473430727-StringCat.png"
+        ],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [
+          "image"
+        ],
+        "questionCommentData": null
+      }
+    ],
+    "ecbabe31-0655-4c3e-b9e1-9ef8a6291554": [
+      {
+        "id": "7c3e4afb-10e0-431f-b23c-7429d4c9d03c",
+        "displayCommentEventId": "ecbabe31-0655-4c3e-b9e1-9ef8a6291554",
+        "displayCommentEventSequenceNumber": 422,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725474084358,
+        "commentText": "Sometimes variables have been declared/assigned values elsewhere.&nbsp; That is the case with <span style=\"font-family: Courier;\">penguins;</span> it is a variable that is created in the <span style=\"font-family: Courier;\">palmerpenguins</span> library.&nbsp; The image below shows what the computer things is assigned to the variable <span style=\"font-family: Courier;\">penguins</span>.<div><br></div><div><span style=\"font-weight: bold;\">NOTE</span>: The # before the words \"A tibble, 344 X 8\" is a comment!</div>",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [
+          "media/images/1725474048924-PalmerPenguins.PNG"
+        ],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [
+          "image"
+        ],
+        "questionCommentData": null
+      }
+    ],
+    "0d94a1ae-d7a9-48d8-89b8-931fd24d7b7d": [
+      {
+        "id": "4a4caeac-6968-4f31-8e50-6b1d9a7fbe93",
+        "displayCommentEventId": "0d94a1ae-d7a9-48d8-89b8-931fd24d7b7d",
+        "displayCommentEventSequenceNumber": 445,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725474179068,
+        "commentText": "Particularly because we did not create the <span style=\"font-family: Courier;\">penguins</span> variable, we might want to know what R thinks is its data type.&nbsp; We can always find out by using the <span style=\"font-family: Courier;\">class() </span>function and passing as an argument to it the variable's name.&nbsp;&nbsp;",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ],
+    "11f14dbd-a9fe-4191-81d6-8167e93b92ae": [
+      {
+        "id": "655c4e5d-52d4-4ba0-b914-d1e11ba5f65b",
+        "displayCommentEventId": "11f14dbd-a9fe-4191-81d6-8167e93b92ae",
+        "displayCommentEventSequenceNumber": 509,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725474222717,
+        "commentText": "You want to be careful when creating new variables that you don't use a reserve word or the name of an already created variable or function.&nbsp; The computer will assume in instances of these conflicts that you wish to reassign values.&nbsp; Because python is dynamically typed, this will <span style=\"font-weight: bold;\">not</span> create a syntax error, but could be a semantics error if this is not your intention!",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      },
+      {
+        "id": "7088606d-df2c-4d7e-96ce-75f042117aa2",
+        "displayCommentEventId": "11f14dbd-a9fe-4191-81d6-8167e93b92ae",
+        "displayCommentEventSequenceNumber": 509,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725498728884,
+        "commentText": "The c here is for <span style=\"font-weight: bold;\">c</span>ombine; this line of code combines 4 separate strings into a character vector.&nbsp; You can think of vectors as just lists of things if you'd like.",
+        "commentTitle": "",
+        "position": 1,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ],
+    "e93ed460-7484-417b-a8f7-aa12a3cc7de1": [
+      {
+        "id": "7cd9eefa-5a25-4dab-97ff-224490401d18",
+        "displayCommentEventId": "e93ed460-7484-417b-a8f7-aa12a3cc7de1",
+        "displayCommentEventSequenceNumber": 527,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725499858680,
+        "commentText": "",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [
+          "question"
+        ],
+        "questionCommentData": {
+          "allAnswers": [
+            "penguins",
+            "The tibble containing Palmer penguins data",
+            "\"Skipper\", \"Kowalski\", \"Rico\", and \"Private\"",
+            "None of these"
+          ],
+          "correctAnswer": "\"Skipper\", \"Kowalski\", \"Rico\", and \"Private\"",
+          "question": "What do you think will be printed in this line?",
+          "explanation": ""
+        }
+      },
+      {
+        "id": "a8ec71a3-b78f-405b-984e-7010080898a4",
+        "displayCommentEventId": "e93ed460-7484-417b-a8f7-aa12a3cc7de1",
+        "displayCommentEventSequenceNumber": 527,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725500313920,
+        "commentText": "If we now ask to see <span style=\"font-family: Courier;\">penguins</span>, it will show us the reassigned value.&nbsp; The data we had before has been lost by reusing this name for something new, whether we desired that or not.&nbsp; (Output of the print shown below).",
+        "commentTitle": "",
+        "position": 1,
+        "selectedCodeBlocks": [],
+        "imageURLs": [
+          "media/images/1725500309720-Madagascar.PNG"
+        ],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [
+          "image"
+        ],
+        "questionCommentData": null
+      }
+    ],
+    "eed36052-6489-464b-a185-0e3885170cc3": [
+      {
+        "id": "ee6eb4a8-a9a7-4aa4-9039-2af96f3da382",
+        "displayCommentEventId": "eed36052-6489-464b-a185-0e3885170cc3",
+        "displayCommentEventSequenceNumber": 619,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725505372629,
+        "commentText": "<div>There are also syntax rules about what individual characters are allowable in a variable's name.&nbsp; Naming this list <span style=\"font-family: Courier;\">4penguins</span> is decently descriptive; unfortunately it is not a valid variable name.</div><div><br></div><div>While numbers are generally allowed (as are letters, underscores, and periods), a variable's name MUST start with a letter.&nbsp; &nbsp;Thus this line of code will produce an error and will NOT store the values on the right of the assignment operator.&nbsp;&nbsp;</div><div><br></div><div>&nbsp;This line of code creates the error shown below.&nbsp; The \"unexpected symbol\" identified in the error is the number 4.<br></div>",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [
+          "media/images/1725505327954-PenguinError.PNG"
+        ],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [
+          "image"
+        ],
+        "questionCommentData": null
+      }
+    ],
+    "fe69e4dd-c432-4ace-8e7e-30750576ff27": [
+      {
+        "id": "3b05d7d3-8d11-4368-b97e-b5aa0ef37f1e",
+        "displayCommentEventId": "fe69e4dd-c432-4ace-8e7e-30750576ff27",
+        "displayCommentEventSequenceNumber": 641,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725505430931,
+        "commentText": "",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [
+          "question"
+        ],
+        "questionCommentData": {
+          "allAnswers": [
+            "Yes",
+            "No"
+          ],
+          "correctAnswer": "Yes",
+          "question": "Is this variable name acceptable?",
+          "explanation": "The 4 here is not at the start of the variable name, so it is okay to include it.&nbsp;&nbsp;"
+        }
+      }
+    ],
+    "57b626d6-2e41-485f-bf87-d21c2962a836": [
+      {
+        "id": "fd22a34e-b672-4101-b5bc-1b76ea230572",
+        "displayCommentEventId": "57b626d6-2e41-485f-bf87-d21c2962a836",
+        "displayCommentEventSequenceNumber": 722,
+        "developerGroupId": "6269ee04-6383-4c8d-b1cd-496b0c28e3f4",
+        "timestamp": 1725505657434,
+        "commentText": "<span style=\"font-weight: bold;\">BONUS</span>: When we \"reassigned\" a value to <span style=\"font-family: Courier;\">penguins</span> in line 23, we didn't actually lose the original palmer penguins data!&nbsp; Technically, we created a new <span style=\"font-family: Courier;\">penguins</span> variable that the programming language views as more important / higher ranking in some way.&nbsp; When we asked to see what was stored in <span style=\"font-family: Courier;\">penguins</span>, the computer returned the highest ranking <span style=\"font-family: Courier;\">penguins</span> variable (in this case, the newly created one).&nbsp; If we can communicate to the computer that we somehow want the old value, we can still see it.&nbsp;&nbsp;",
+        "commentTitle": "",
+        "position": 0,
+        "selectedCodeBlocks": [],
+        "imageURLs": [],
+        "videoURLs": [],
+        "audioURLs": [],
+        "linesAbove": 0,
+        "linesBelow": 0,
+        "currentFilePath": "/DataTypes.r",
+        "viewableBlogText": "",
+        "commentTags": [],
+        "questionCommentData": null
+      }
+    ]
+  }
+}
